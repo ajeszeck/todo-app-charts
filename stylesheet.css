@@ -1,0 +1,167 @@
+html {
+  max-width: 100%;
+  font-family: 'Indie Flower', sans-serif;
+  font-size: 1.5rem;
+}
+
+body {
+  display: flex;
+  max-width: 100%;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: #B5CCC9;
+}
+
+header {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: 2rem;
+  border-bottom: 0.3rem black double;
+  width: 40%;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+i {
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.main {
+  background-color: #A8B6AD;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  /*border: 3px black dashed;*/
+}
+
+.task-form {
+  min-width: 635px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+legend {
+  font-size: 1.1rem;
+}
+
+button {
+  flex-wrap: no-wrap;
+  font-family: "Indie Flower", sans-serif;
+  width: 300px;
+  padding: 0.5rem;
+  margin-top: 0.6rem;
+  border-radius: 5%;
+  align-self: center;
+}
+
+.resetButton {
+  font-size: 0.7rem;
+  padding: 0.3rem;
+  width: 200px;
+}
+
+select {
+  font-family: "Indie Flower", sans-serif;
+
+}
+
+input {
+  font-family: "Indie Flower", sans-serif;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 10%;
+  padding-right: 15%;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 50%;
+}
+
+.taskLists {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #4F4F4F;
+  padding: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 2%;
+  border: 0.5rem #a27744 solid;
+  min-width: 300px;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+h2 {
+  text-decoration: underline;
+  color: white;
+  margin: 0;
+
+}
+
+li {
+  list-style: square;
+  text-align: center;
+  border-radius: 10%;
+  font-family: "Indie Flower", sans-serif;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+ul {
+  /*background-color: #C5D7E4;*/
+  padding-left: 1rem;
+}
+
+.easy {
+  /*background-color: green;*/
+  color: #74b76c;
+}
+
+.moderate {
+  /*background-color: orange;*/
+  color: #e78332;
+}
+
+.hard {
+  /*background-color: red;*/
+  color: #dd1313;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
