@@ -159,10 +159,15 @@ function drawChart() {
 
   var options = {
     title: 'Ratio of Task Difficulty',
+    titleTextStyle: {
+      fontSize: 22,
+      bold: true,
+      underline: true
+    },
     width: 500,
     height: 300,
     fontName: "Indie Flower",
-    fontSize: 18,
+    fontSize: 20,
     backgroundColor: "#B5CCC9",
     is3D: true,
     colors: ["#74b76c", "#e78332", "#D54545"]
@@ -181,19 +186,26 @@ function drawChart2() {
 
   var options = {
     title: "Distribution of Tasks by Person",
+    titleTextStyle: {
+      fontSize: 22,
+      bold: true,
+      underline: true
+    },
     backgroundColor: "#B5CCC9",
     fontName: "Indie Flower",
     width: 500,
     height: 300,
-    fontSize: 18,
+    fontSize: 20,
     vAxis: {
-      title: "Who's Task"
+      title: "Who's Task",
+      italic: true
     },
     hAxis: {
       title: '# of Tasks',
       gridlines: {
         color: "#A8B6AD"
-      }
+      },
+      italic: true
     },
     legend: {
       position: "none"
@@ -215,6 +227,11 @@ function drawChart3() {
 
       var options = {
         title: "Distribution of Tasks by Difficulty",
+        titleTextStyle: {
+          fontSize: 22,
+          bold: true,
+          underline: true
+        },
         width: 600,
         height: 400,
         legend: { position: 'right', maxLines: 3 },
@@ -226,11 +243,13 @@ function drawChart3() {
         fontSize: 18,
         vAxis: {
           title: "Number of Tasks",
-          fontSize: 12
+          fontSize: 20,
+          italic: true
         },
         hAxis: {
           title: "Who's Task?",
-          fontSize: 12
+          fontSize: 20,
+          italic: true
         }
       };
 
