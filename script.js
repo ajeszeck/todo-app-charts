@@ -243,6 +243,9 @@ function drawChart3() {
         fontSize: 18,
         vAxis: {
           title: "Number of Tasks",
+          gridlines: {
+            color: "#A8B6AD"
+          },
           fontSize: 20,
           italic: true
         },
