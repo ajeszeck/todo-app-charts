@@ -42,6 +42,7 @@ i {
   align-items: flex-start;
   justify-content: space-around;
   /*border: 3px black dashed;*/
+  padding-bottom: 1rem;
 }
 
 .task-form {
@@ -157,11 +158,20 @@ ul {
 
 .hard {
   /*background-color: red;*/
-  color: #dd1313;
+  color: #D54545;
+}
+
+.statsArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
 }
 
 footer {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  padding: 1rem;
 }
