@@ -158,7 +158,7 @@ function drawChart() {
   ]);
 
   var options = {
-    title: 'Distribution of Tasks by Difficulty',
+    title: 'Ratio of Task Difficulty',
     width: 500,
     height: 300,
     fontName: "Indie Flower",
