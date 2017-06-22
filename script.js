@@ -179,9 +179,9 @@ function drawChart() {
 function drawChart2() {
   var data = google.visualization.arrayToDataTable([
          ['Who', '# of Tasks', { role: 'style' }],
-         ['Me', me, 'stroke-color: #703593; stroke-width: 3; fill-color: #C5A5CF'],
-         ['Jeremy', jeremy, 'stroke-color: #703593; stroke-width: 3; fill-color: #C5A5CF'],
-         ['Cheri', cheri, 'stroke-color: #703593; stroke-width: 3; fill-color: #C5A5CF'],
+         ['Me', me, 'stroke-color: #AAAAAA; stroke-width: 3; fill-color: white'],
+         ['Jeremy', jeremy, 'stroke-color: #AAAAAA; stroke-width: 3; fill-color: white'],
+         ['Cheri', cheri, 'stroke-color: #AAAAAA; stroke-width: 3; fill-color: white'],
       ]);
 
   var options = {
